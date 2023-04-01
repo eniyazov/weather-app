@@ -1,0 +1,263 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap");
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.main1 {
+  margin: 10px;
+  width: 323px;
+  height: 730px;
+  background: linear-gradient(
+    167.44deg,
+    #08244f 0%,
+    #134cb5 47.38%,
+    #0b42ab 100%
+  );
+  border-radius: 40px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+}
+.locs {
+  display: flex;
+  gap: 10px;
+}
+
+.city {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+
+.sun {
+  display: flex;
+  /* justify-content: center; */
+  width: 284px;
+  height: 207px;
+  margin-top: -30px;
+}
+
+.maintemp {
+  margin-top: -40px;
+  display: flex;
+  justify-content: center;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 76px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+}
+
+.maxmintemp {
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.tempdet {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  margin-top: 30px;
+  background: rgb(27, 57, 132);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  color: #ffffff;
+}
+
+.tempdet div {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.tempbyhour {
+  padding: 10px;
+  margin-top: 20px;
+  background: rgb(27, 57, 132);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.sun {
+  margin-top: 1px;
+  width: 284px;
+  height: 207px;
+}
+
+.sun img {
+  width: 100%;
+  height: 100%;
+}
+
+.row1 {
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.tod {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+  text-shadow: -2px 3px 1px rgba(0, 0, 0, 0.1);
+}
+
+.date {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: right;
+  color: #ffffff;
+  text-shadow: -2px 3px 1px rgba(0, 0, 0, 0.1);
+}
+
+.row2 {
+  display: flex;
+  gap: 20px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+  text-shadow: -2px 3px 1px rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+}
+
+/* .row21,
+.row22,
+.row23,
+.row24 {
+  width: 70px;
+  height: 155px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+} */
+
+.row2 > div{
+  width: 70px;
+  height: 155px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.row2 img {
+  margin-left: -30px;
+  width: 93px;
+  height: 93px;
+}
+
+.nextdays {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.nextfrc {
+  padding: 0 5px;
+  display: flex;
+  justify-content: space-between;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+  text-shadow: -2px 3px 1px rgba(0, 0, 0, 0.1);
+}
+
+.next1 {
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.next1text {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+}
+
+.next1dy {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.next1nt {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.next2 {
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.next2text {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+}
+
+.next2dy {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.next2nt {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+}
+.maxmin2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
